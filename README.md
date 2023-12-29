@@ -11,11 +11,11 @@ Implementing a JWT using Spring Security
 ## How it works ?
 ![JWT process](readme_images/Jwt.png "JWT Process")
 ## Spring Boot Signup & Login with JWT Authentication Flow
-The diagram shows flow of how we implement User Registration, User Login and Authorization process.
-![Spring Boot login & signup](readme_images/jwt-flow-1.png "JWT login and Signup")
-A legal JWT must be added to HTTP Authorization Header if Client accesses protected resources.
-You will need to implement Refresh Token
+The diagram shows flow of how we implement User Registration, User Login and Authorization process.<br>
+![Spring Boot login & signup](readme_images/jwt-flow-1.png "JWT login and Signup")<br>
+A legal JWT must be added to HTTP Authorization Header if Client accesses protected resources.<br>
+You will need to implement Refresh Token:<br>
 ![Spring Boot login & signup](readme_images/jwt-flow-2.png "JWT login and Signup")
 ## Spring Boot Server Architecture with Spring Security
-You can have an overview of our Spring Boot Server with the diagram below:
+You can have an overview of our Spring Boot Server with the diagram below:<br>
 ![Spring Boot Server with Spring Security](readme_images/springboot_springsecurity.png "Spring Boot Server with Spring Security")
