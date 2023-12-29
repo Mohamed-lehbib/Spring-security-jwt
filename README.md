@@ -1,2 +1,2 @@
 # Spring-security-jwt
-Just learn the jwt setUp in spring
+Just learn the JWT setUp in spring
