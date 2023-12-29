@@ -6,6 +6,7 @@ Implementing a JWT using Spring Security
 - Step 3: I added all the required annotations to [User](src/main/java/com/springsecurityjwt/user/User.java) with the help of the **lombook** Dependency.
 - Step 4: I have run my Spring app to test if the User table will be created in the database
 - Step 5: I have implemented The **UserDetails** interface and I have created a [Role](src/main/java/com/springsecurityjwt/user/Role.java) Enum
+- Step 6: I have created a repository [UserRepository](src/main/java/com/springsecurityjwt/user/UserRepository.java) that extends **JpaRepository**
 
 # JWT (JSON Web Token)
 ## How it works ?
