@@ -7,6 +7,7 @@ Implementing a JWT using Spring Security
 - Step 4: I have run my Spring app to test if the User table will be created in the database
 - Step 5: I have implemented The **UserDetails** interface and I have created a [Role](src/main/java/com/springsecurityjwt/user/Role.java) Enum
 - Step 6: I have created a repository [UserRepository](src/main/java/com/springsecurityjwt/user/UserRepository.java) that extends **JpaRepository**
+- Step 7: I have created a [config](src/main/java/com/springsecurityjwt/config) package and I have created [JwtAuthenticationFilter](src/main/java/com/springsecurityjwt/config/JwtAuthenticationFilter.java) class
 
 # JWT (JSON Web Token)
 ## How it works ?
@@ -20,3 +21,5 @@ You will need to implement Refresh Token:<br>
 ## Spring Boot Server Architecture with Spring Security
 You can have an overview of our Spring Boot Server with the diagram below:<br>
 ![Spring Boot Server with Spring Security](readme_images/springboot_springsecurity.png "Spring Boot Server with Spring Security")
+## References for this JWT Implementation
+[Amigoscode JWT Authentication and Authorisation](https://youtu.be/KxqlJblhzfI?si=lVoDYf_5_kJFGBi9)
