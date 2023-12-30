@@ -8,6 +8,7 @@ Implementing a JWT using Spring Security
 - Step 5: I have implemented The **UserDetails** interface and I have created a [Role](src/main/java/com/springsecurityjwt/user/Role.java) Enum
 - Step 6: I have created a repository [UserRepository](src/main/java/com/springsecurityjwt/user/UserRepository.java) that extends **JpaRepository**
 - Step 7: I have created a [config](src/main/java/com/springsecurityjwt/config) package and I have created [JwtAuthenticationFilter](src/main/java/com/springsecurityjwt/config/JwtAuthenticationFilter.java) class
+- Step 8: I have created a [JwtService](src/main/java/com/springsecurityjwt/config/JwtService.java) class
 
 # JWT (JSON Web Token)
 ## How it works ?
