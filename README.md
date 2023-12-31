@@ -9,6 +9,13 @@ Implementing a JWT using Spring Security
 - Step 6: I have created a repository [UserRepository](src/main/java/com/springsecurityjwt/user/UserRepository.java) that extends **JpaRepository**
 - Step 7: I have created a [config](src/main/java/com/springsecurityjwt/config) package and I have created [JwtAuthenticationFilter](src/main/java/com/springsecurityjwt/config/JwtAuthenticationFilter.java) class
 - Step 8: I have created a [JwtService](src/main/java/com/springsecurityjwt/config/JwtService.java) class
+- Step 9: I have created a constant called `SECRET_KEY` that will hold the key value
+- Step 10: I have generated an aes encryption key with the size 256 with this command
+```
+openssl rand -hex 32
+```
+- Step 11: I have assigned it to `SECRET_KEY`
+- 
 
 # JWT (JSON Web Token)
 ## How it works ?
