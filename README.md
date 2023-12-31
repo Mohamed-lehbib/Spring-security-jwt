@@ -15,7 +15,7 @@ Implementing a JWT using Spring Security
 openssl rand -hex 32
 ```
 - Step 11: I have assigned it to `SECRET_KEY`
-- 
+- Step 12: I have created [ApplicationConfig](src/main/java/com/springsecurityjwt/config/ApplicationConfig.java) class that contains the `UserDetailsService`
 
 # JWT (JSON Web Token)
 ## How it works ?
