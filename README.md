@@ -38,4 +38,5 @@ You can have an overview of our Spring Boot Server with the diagram below:<br>
 ![Spring Boot Server with Spring Security](readme_images/springboot_springsecurity.png "Spring Boot Server with Spring Security")
 ## References for this JWT Implementation
 - [Amigoscode JWT Authentication and Authorisation](https://youtu.be/KxqlJblhzfI?si=lVoDYf_5_kJFGBi9) 
-- [Github Repo for the tuto](https://github.com/ali-bouali/spring-boot-3-jwt-security)
+- [Github Repo for the tuto](https://github.com/ali-bouali/spring-boot-3-jwt-security)<br>
+![The Architecture preposed By Amigos](readme_images/AmigosArchi.png)
