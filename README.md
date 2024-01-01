@@ -16,6 +16,13 @@ openssl rand -hex 32
 ```
 - Step 11: I have assigned it to `SECRET_KEY`
 - Step 12: I have created [ApplicationConfig](src/main/java/com/springsecurityjwt/config/ApplicationConfig.java) class that contains the `UserDetailsService`
+- Step 13: I have created [SecurityConfiguration](src/main/java/com/springsecurityjwt/config/SecurityConfiguration.java) class in the config
+- Step 14: I have created [auth](src/main/java/com/springsecurityjwt/auth) package and [AuthenticationController](src/main/java/com/springsecurityjwt/auth/AuthenticationController.java) class
+- Step 15: I have created [AuthenticationRequest](src/main/java/com/springsecurityjwt/auth/AuthenticationRequest.java) class
+- Step 16: I have created [AuthenticationResponse](src/main/java/com/springsecurityjwt/auth/AuthenticationResponse.java) class
+- Step 17: I have created [RegisterRequest](src/main/java/com/springsecurityjwt/auth/RegisterRequest.java) class
+- Step 18: I have created [AuthenticationService](src/main/java/com/springsecurityjwt/auth/AuthenticationService.java) class
+- Step 19: I have created [demo](src/main/java/com/springsecurityjwt/demo) package and [DemoController](src/main/java/com/springsecurityjwt/demo/DemoController.java) class that expose an Api Endpoint to test the JWT Authentication To **Test Authenticated Request**
 
 # JWT (JSON Web Token)
 ## How it works ?
@@ -30,4 +37,5 @@ You will need to implement Refresh Token:<br>
 You can have an overview of our Spring Boot Server with the diagram below:<br>
 ![Spring Boot Server with Spring Security](readme_images/springboot_springsecurity.png "Spring Boot Server with Spring Security")
 ## References for this JWT Implementation
-[Amigoscode JWT Authentication and Authorisation](https://youtu.be/KxqlJblhzfI?si=lVoDYf_5_kJFGBi9)
+- [Amigoscode JWT Authentication and Authorisation](https://youtu.be/KxqlJblhzfI?si=lVoDYf_5_kJFGBi9) 
+- [Github Repo for the tuto](https://github.com/ali-bouali/spring-boot-3-jwt-security)
